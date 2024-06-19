@@ -1,4 +1,4 @@
-import os
+#import os
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -6,7 +6,7 @@ from sklearn import metrics
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.model_selection import train_test_split
 
-os.chdir(r'D:\大二（学科作业）\机器学习\一见钟情数据')
+#os.chdir(r'D:\大二（学科作业）\机器学习\一见钟情数据')
 df = pd.read_csv('speed_dating_train.csv', encoding='gbk')
 dating_test = pd.read_csv('speed_dating_test.csv', encoding='gbk')
 
